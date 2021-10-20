@@ -15,7 +15,7 @@ nav {
 	justify-content: flex-end;
 	list-style-type: none;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 li {
@@ -23,8 +23,8 @@ li {
 }
 
 #logo {
-	height: 50px;
-  margin: 10px 20px;
+	height: 100px;
+	margin: 5px;
 }
 
 .hero {
@@ -38,10 +38,24 @@ li {
 .hero-info {
 	background-color: rgb(83, 83, 83);
 	margin: 30px;
+  max-width: 300px;
+}
+
+.hero-image {
+	width: 400px;
+	margin: 0;
+}
+
+.styled-break {
+  width: 30px;
+  height: 5px;
+  background-color: rgb(253, 128, 128);
+  border-radius: 2.5px;
+  margin: 30px 0 30px 0;
 }
 
 #name {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 #avatar {
@@ -52,21 +66,23 @@ li {
 }
 
 .button {
-	width: 100px;
-	height: 25px;
-	background-color: rgb(253, 128, 128);
-	border: solid 1px rgb(0, 0, 0);
-	border-radius: 5px;
-	text-align: center;
-	font-weight: 600;
-  text-shadow: 1px 1px rgb(0, 0, 0);
-	padding-top: 5px;
-	box-shadow: 2px 2px rgb(0, 0, 0, 25%);
+  border: none;
+  padding: 10px 20px;
+  font-size: 13px;
+  background-color: rgb(253, 128, 128);
+  width: 80px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  text-align: center;
 	cursor: pointer;
 }
 
 .button:hover {
-	background-color: rgb(253, 151, 151);
+	background-color: rgb(245, 116, 116);
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px rgb(47, 46, 47);
 }
 
 section {
@@ -88,9 +104,4 @@ section {
 a {
 	text-decoration: none;
 	color: rgb(238, 236, 236) ;
-}
-
-a:hover {
-  color: rgb(253, 128, 128);
-  text-shadow: 1px 1px rgb(0, 0, 0);
 }
