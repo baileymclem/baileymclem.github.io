@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/368c54dd93.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
   <title>baileymclem</title>
 </head>
@@ -21,7 +22,7 @@
     <ul class="nav-bar">
       <li><a href="#about">About Me</a></li>
       <li><a href="https://github.com/baileymclem">Github</a></li>
-      <li><a href="/pages/contact.html">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
@@ -29,24 +30,77 @@
 
     <div class="hero-info">
       <h1 id="name">Bailey Clemons</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque officia, dignissimos voluptas necessitatibus nam iusto maiores ratione eum unde ipsum. Illum vel, voluptas sint tempore iste suscipit architecto ullam odio.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque officia, dignissimos voluptas necessitatibus
+        nam iusto maiores ratione eum unde ipsum. Illum vel, voluptas sint tempore iste suscipit architecto ullam odio.
+      </p>
       <div class="styled-break"></div>
       <div class="button">Hire Me</div>
     </div>
     <div>
-      <img class="hero-image" src="images/crescent-cat.png">
+      <img class="hero-image" alt="Moon Cat Illustration" src="images/crescent-cat.png">
     </div>
 
   </div>
 
   <section>
-    <h2 id="about">About</h2>
-    <img id="avatar" alt="Bailey Clemons Illustrated Avatar" src="images/profile_portrait_sm.png">
-    <div class="section-div"></div>
-    <div class="section-div"></div>
-    <div class="section-div"></div>
-    <div class="section-div"></div>
-    <div class="section-div"></div>
+    <div class="about-me">
+      <img id="avatar" alt="Bailey Clemons Illustrated Avatar" src="images/profile_portrait_sm.png">
+    </div>
+
+    <div class="info">
+      <h2 id="about">About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ut architecto reiciendis esse qui nisi magnam
+        at consectetur reprehenderit, quibusdam molestiae, aperiam nemo commodi. Quos assumenda eum vero vitae animi!
+      </p>
+    </div>
+
+    <section>
+      <div class="socials">
+        <i class="fab fa-github-square"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-medium"></i>
+      </div>
+    </section>
+
+  </section>
+
+  <section>
+    <form>
+      <h2 id="contact">Contact Me</h2>
+      <div class="input-section">
+        <div class="input-group">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name">
+        </div>
+        <div class="input-group">
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name">
+        </div>
+      </div>
+
+      <div class="input-section">
+        <input type="radio" id="office" name="office" value="office">
+        <label for="office">Office</label>
+        <input type="radio" id="remote" name="remote" value="remote">
+        <label for="remote">Remote</label>
+        <input type="radio" id="other" name="other" value="other">
+        <label for="other">Other</label>
+      </div>
+
+      <div class="input-section">
+        <input type="checkbox" id="contract" name="contract" value="contract">
+        <label for="contract">Contract Work</label>
+        <input type="checkbox" id="full-time" name="full-time" value="full-time">
+        <label for="full-time">Full-time</label>
+        <input type="checkbox" id="sponsership" name="sponsership" value="sponsership">
+        <label for="sponsership">Sponsership</label>
+      </div>
+
+      <input type="submit" value="submit" class="submit-btn">
+    </form>
   </section>
 
   <footer>
@@ -57,6 +111,7 @@
     </ul>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 
 </html>

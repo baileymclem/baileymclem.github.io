@@ -15,7 +15,7 @@ nav {
 	justify-content: flex-end;
 	list-style-type: none;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 16px;
 }
 
 li {
@@ -29,79 +29,131 @@ li {
 
 .hero {
 	width: 100%;
-	background-color: rgb(177, 143, 209);
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+	background-image: linear-gradient(rgb(47, 46, 47), rgb(92, 92, 92));
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .hero-info {
-	background-color: rgb(83, 83, 83);
 	margin: 30px;
-  max-width: 300px;
+	max-width: 300px;
 }
 
 .hero-image {
 	width: 400px;
-	margin: 0;
+	margin: 0 0 0 30px;
 }
 
 .styled-break {
-  width: 30px;
-  height: 5px;
-  background-color: rgb(253, 128, 128);
-  border-radius: 2.5px;
-  margin: 30px 0 30px 0;
+	width: 30px;
+	height: 5px;
+	background-color: #dfc880;
+	border-radius: 2.5px;
+	margin: 30px 0 30px 0;
 }
 
 #name {
-  font-size: 40px;
+	font-size: 40px;
 }
 
 #avatar {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	border: solid 3px rgba(199, 194, 199, 0.712);
-	border-radius: 50px;
+	border-radius: 100px;
 }
 
 .button {
-  border: none;
-  padding: 10px 20px;
-  font-size: 13px;
-  background-color: rgb(253, 128, 128);
-  width: 80px;
-  border-radius: 20px;
-  text-transform: uppercase;
-  text-align: center;
+	border: none;
+	padding: 10px 20px;
+	font-size: 13px;
+	background-color: rgb(177, 143, 209);
+	width: 80px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	text-align: center;
 	cursor: pointer;
 }
 
 .button:hover {
-	background-color: rgb(245, 116, 116);
+	background-color: rgb(165, 121, 207);
 }
 
 .button:active {
-  box-shadow: inset -2px -2px 3px rgb(47, 46, 47);
+	box-shadow: inset -2px -2px 3px rgb(47, 46, 47);
+}
+
+.submit-btn {
+	border: none;
+	padding: 10px;
+	font-size: 13px;
+	background-color: rgb(238, 236, 236);
+	color: rgb(119, 118, 118);
+	font-family: "Roboto", sans-serif;
+	width: 90px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.submit-btn:hover {
+	background-color: rgb(223, 219, 219);
+}
+
+.submit-btn:active {
+	box-shadow: inset -2px -2px 3px rgb(47, 46, 47);
 }
 
 section {
 	width: 100%;
-	height: 200px;
-	background-color: rgb(83, 83, 83);
+	background-color: rgb(177, 143, 209);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
+	padding: 40px 0 0 0;
 }
 
-.section-div {
-	width: 100px;
-	height: 100px;
-	background-color: rgb(177, 143, 209);
+.about-me {
+	width: 300px;
 	margin: 5px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.info {
+	max-width: 300px;
+	margin: 30px;
+}
+
+.socials {
+	max-width: 300px;
+	font-size: 30px;
 }
 
 a {
 	text-decoration: none;
-	color: rgb(238, 236, 236) ;
+	color: rgb(238, 236, 236);
+}
+
+form {
+	margin: 0 0 40px 0;
+}
+
+.input-section {
+	margin: 10px 0;
+	display: flex;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	margin: 0 5px 0 0;
+}
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: center;
 }
