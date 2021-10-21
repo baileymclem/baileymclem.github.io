@@ -157,3 +157,57 @@ footer {
 	display: flex;
 	justify-content: center;
 }
+
+@media only screen and (max-width: 815px) {
+	.hero-info {
+		max-width: 700px;
+	}
+
+	.hero-image {
+		visibility: hidden;
+		height: 0px;
+	}
+}
+
+/* @media only screen and (max-width: 485px) {
+	.hero-image-div {
+		width: 400px;
+		margin: 0 0 0 30px;
+	}
+
+	.hero-image {
+		width: 300px;
+	}
+
+	@media only screen and (max-width: 414px) {
+	.hero-image {
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.hero-image-div {
+		width: 400px;
+		margin: 0 0 0 30px;
+	}
+
+	.hero-image {
+		width: 300px;
+	}
+
+	form {
+		margin: 0 0 40px 30px;
+	}
+
+	.input-section {
+		margin: 10px 0;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.input-group {
+		display: flex;
+		flex-direction: column;
+		margin: 0 5px 0 0;
+	}
+} */
